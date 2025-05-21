@@ -1,0 +1,8 @@
+streamlit
+opencv-python
+pytesseract
+numpy
+Pillow
+qrcode
+decode
+easyocr
