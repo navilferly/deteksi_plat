@@ -10,4 +10,5 @@ def read_plate_text(plate_img, method="Tesseract (default)"):
     else:
         gray = cv2.cvtColor(plate_img, cv2.COLOR_BGR2GRAY)
         text = pytesseract.image_to_string(gray, config='--psm 7')
-        return text.strip()
+        return text.strip();
+    fgvv
